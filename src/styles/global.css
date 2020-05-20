@@ -1,0 +1,123 @@
+
+body {margin:0;color:#000;background:#fff;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;font-size:1.125em;font-weight:400;font-stretch:normal;line-height:1em;letter-spacing:.2px;color:rgba(0,0,0,.87)}
+ul {list-style: none;}
+a { color: #08c;}
+
+.gradient-top {height:100px;width:100%;position:absolute;top:0;background:-moz-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,0,0,.65)),color-stop(100%,rgba(0,0,0,0)));background:-webkit-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:-o-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:-ms-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:linear-gradient(to bottom,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0 )}
+.gradient-bottom {height:100px;width:100%;position:absolute;bottom:0;background:-moz-linear-gradient(bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.65) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.65)));background:-webkit-linear-gradient(bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.65) 100%);background:-o-linear-gradient(bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.65) 100%);background:-ms-linear-gradient(bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.65) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.65) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0 )}
+.relative {position:relative}
+.island {padding:2.5em}
+.mar-t16 { margin-top: 16px}
+.f18 {font-size: 18px;line-height: 28px;}
+.c54{color: rgba(0,0,0,.54);}
+.c54 a{color: rgba(0,0,0,.54);}
+.f14, h6, small { font-size: 14px; line-height: 24px;}
+.pad-t16 { padding-top: 16px;}
+.nav-jump { margin: 16px 8px 0;}
+.faq ul li h2 { font-size: 28px; font-weight: 800; padding-top: 48px;}
+.cover {position:relative;width:100%;background-color:#000;text-shadow:1px 1px 5px rgba(0,0,0,.1)}
+.cover .island {padding:1em 1.5em}
+.faq input{
+  border: 1px solid #ccc;
+  border-radius: 2px;
+	width: 100%;
+	height: 60px;
+	font-size: 20px;
+	background-color: #fff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, .05);
+	display: block;
+	padding: 0 20px;
+	-webkit-transition: box-shadow .1s linear;
+	transition: box-shadow .1s linear;
+}
+.faq input::-webkit-input-placeholder	{ color: #aaa !important; }
+.faq input::-moz-placeholder			{ color: #aaa !important; }
+.faq input:-ms-input-placeholder		{ color: #aaa !important; }
+.faq input:focus
+{
+	border-color: #08c;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, .2);
+}
+.faq .highlight
+{
+	background-color: #fffd77;
+}
+.faq > ul
+{
+	padding-bottom: 0
+}
+	.faq > ul > li:not( :first-child )
+	{
+		border-top: 1px solid #dcebed;
+		margin-top: 16px;
+		padding-top: 32px;
+	}
+	.faq > ul > li.is-hidden
+	{
+		display: none;
+	}
+		.faq > ul > li h2
+		{
+			font-size: 28px;
+			font-weight: 800;
+			padding-top: 48px;
+		}
+		.faq > ul > li h4
+		{
+			font-size: 24px;
+			font-weight: 700;
+		}
+			.faq > ul > li h4:hover,
+			.faq > ul > li h4:focus,
+			.faq > ul > li.is-active h4,
+			.faq > ul > li:target h4
+			{
+				color: #a664b7;
+			}
+		.faq > ul > li h4 a
+		{
+      color: #08c;
+			text-decoration: none;
+		}
+		.faq > ul > li > div,
+		.faq > ul > li > div > p.keywords
+		{
+			display: block;
+		}
+		.faq > ul > li.is-active > div,
+		.faq > ul > li:target > div
+		{
+			display: block;
+			margin-top: 10px;
+		}
+
+	.faq__notfound
+	{
+		font-size: 20px;
+		font-style: italic;
+		display: none;
+	}
+	.faq__notfound.is-visible
+	{
+		display: block;
+	}
+
+	.nav-jump {
+		margin: 16px 8px 0;
+	}
+	.nav-jump a {
+		font-weight: 600;
+		text-decoration: none;
+	}
+	.nav-jump a:hover {
+		color: #08c;
+  }
+  .highlighted {
+		color: #08c;
+  }
+  @media only screen and (max-width: 950px) {
+.faq-image-container ,.faq-image{
+    height: 400px; 
+}
+
+  }

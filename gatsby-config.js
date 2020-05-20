@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    `gatsby-transformer-sharp`, `gatsby-plugin-sharp`,
+    { resolve: `gatsby-source-filesystem`, options: { path: `./src/data/` } },
+    {
+      resolve: `gatsby-source-prismic-graphql`,
+      options: {
+        repositoryName: 'dz-blog'
+      }
+    },
+  ],
 }
